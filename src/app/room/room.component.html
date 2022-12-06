@@ -1,0 +1,8 @@
+<!--<button (click)="putNewElementOnCanvas(room)">New Item</button>-->
+
+<div
+  #room
+  class="room"
+  (dragover)="dragOverHandler($event)"
+  (drop)="dropHandler($event)"
+></div>

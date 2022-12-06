@@ -1,0 +1,13 @@
+.room {
+  margin: 1rem;
+  background-color: #e7e7e7;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+::ng-deep .item {
+  position: absolute;
+}
+
+
